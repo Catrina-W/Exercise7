@@ -44,7 +44,39 @@ html, body {
 }
 
 /* PROJECT GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+}
 
+@media (max-width:799px) {
+    .grid {
+        grid-template-columns: auto;
+    }
+}
+
+.square {
+    background-color: rgb(73, 73, 73);
+    align-content: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+img {
+    height: 80px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 30px;
+    text-align: center;
+    align-content: center;
+}
 
 
 
